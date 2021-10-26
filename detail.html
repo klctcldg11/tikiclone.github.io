@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3a676f1eef.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="detail.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header onclick="closeSearch()" class="header" style="max-width: 1600px; margin: 0 auto">
+        <a href="index.html" class="header-logo">
+            <img src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png" alt="" class="header-logo-img"></img>
+            <img src="https://salt.tikicdn.com/ts/upload/e5/1d/22/61ff572362f08ead7f34ce410a4a6f96.png" alt="" class="header-logo-icon"></img>
+        </a>
+        <div class="header-menu">
+            <div class="header-menu-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <a href="" class="header-menu-text">Sản phẩm</a>
+            <div class="header-hidden">
+                <ul class="header-hidden-menu">
+                    <li class="header-hidden-item">
+                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                        <span>Điện Thoại - Máy tính bảng</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                        <span>Điện Tử - Điện Lạnh</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <span>Phụ Kiện - Thiết Bị Số</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <span>Laptop - Thiết Bị IT</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                        <span>Máy Ảnh - Quay Phim</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-life-ring" aria-hidden="true"></i>
+                        <span>Điện Gia Dụng</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span>Nhà Cửa Đời Sống</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-ravelry" aria-hidden="true"></i>
+                        <span>Tiêu Dùng - Thực Phẩm</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-clone" aria-hidden="true"></i>
+                        <span>Đồ Chơi, Mẹ & Bé</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-blind" aria-hidden="true"></i>
+                        <span>Làm Đẹp - Sức Khỏe</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-imdb" aria-hidden="true"></i>
+                        <span>Thời Trang - Phụ Kiện</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-opera" aria-hidden="true"></i>
+                        <span>Thể Thao - Dã Ngoại</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-car" aria-hidden="true"></i>
+                        <span>Xe Máy, Ô Tô, Xe Đạp</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-adjust" aria-hidden="true"></i>
+                        <span>Hàng Quốc Tế</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span>Sách</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-search">
+            <input onfocus="openSearch()" class="header-search-bar" type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ..."></input>
+            <button class="header-search-btn">
+                <i class="header-search-icon fa fa-search"></i>
+                <span>Tìm kiếm</span>
+            </button>
+            <div class="header-search-info">
+                <div class="header-search-infor-title">
+                    <div class="header-search-title">
+                        <a href="">Săn ngay Laptop học online</a>
+                        <div class="header-search-title-img">
+                            <img src="https://salt.tikicdn.com/cache/140x28/ts/banner/03/3e/ff/963f088d309a0d52192fa5e6def52049.png.webp" alt=""></img>
+                        </div>
+                    </div>
+                    <div class="i">
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-search-infor-trend">
+                    <div class="header-search-trend">
+                        <img src="https://salt.tikicdn.com/ts/upload/4f/03/a0/2455cd7c0f3aef0c4fd58aa7ff93545a.png" alt=""></img>
+                        <span>Tìm Kiếm Phổ Biến</span>
+                    </div>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                    </div>
+                <div class="header-search-infor-nav">
+                    <div class="header-search-nav">
+                        <span>Danh Mục Nổi Bật</span>
+                    </div>
+                    <div class="header-nav-items">
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/65/f7/8f/dcb4a4a7e612edd19c6c78fbc821a110.png" alt=""></img>
+                            </div>
+                            <span>Rau Củ Quả</span>
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="header-d" href="dangnhap.html">
+        <div class="header-login">
+                <i class=" header-login-icon fa fa-user"></i>
+                <div class="header-login-text">
+                    <span>Đăng Nhập/Đăng Ký</span>
+                    <div class="header-login-text-user">
+                        <span class="header-login-text-s">Tài Khoản</span>
+                        <img class="header-login-text-icon"src="https://salt.tikicdn.com/ts/upload/d7/d4/a8/34939af2da1ceeeae9f95b7485784233.png" alt=""></img>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <div class="header-cart">
+            <i class="header-cart-icon fa fa-shopping-cart"></i>
+            <a class="header-cart-text" href="">Giỏ Hàng</a>
+        </div>
+    </header>
+    <div class="breadcrumb">
+        <a href="#" class="breadcrumb-item">Trang chủ <i class="breadcrumb-icon fa fa-chevron-right" aria-hidden="true"></i> Điện Thoại - Máy Tính Bảng </a>
+    </div>
+    <div class="container1">
+        <div class="product-group">
+            <div class="product-image">
+                <div class="picZoomer">
+                    <img src="./image/12.png" alt="">
+                </div>
+                <div class="review-image-list">
+                    <a class="review-image-item">
+                        <img src="./image/detail11.png" alt="">
+                    </a>
+                    <a class="review-image-item">
+                        <img src="./image/detail12.png" alt="">
+                    </a>
+                    <a class="review-image-item">
+                        <img src="./image/detail13.png" alt="">
+                    </a>
+                    <a class="review-image-item">
+                        <img src="./image/detail14.png" alt="">
+                    </a>
+                    <a class="review-image-item">
+                        <img src="./image/detail15.png" alt="">
+                    </a>
+                </div>
+                <div class="detail-socials">
+                    <span>Chia sẻ:</span>
+                    <a href="https://www.facebook.com/" class="details-icon f">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.google.com/" class="details-icon e">
+                        <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.twitter.com/" class="details-icon t">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.github.com/" class="details-icon g">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="details-icon l">
+                        <i class="fa fa-link" aria-hidden="true"></i>
+                    </a>
+                    <div class="details-test"></div>
+                    <div class="icon-heart">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                    <span>Thích</span>
+                </div>
+            </div>
+            <div class="product-detail">
+                <div class="product-mark">
+                    <div class="mark-title">
+                        <span>Thương hiệu: </span>
+                        <a href="">Bagi</a>
+                    </div>
+                    <h8>Iphone 12</h8>
+                </div>
+                <div class="product-mota">
+                    <div class="product-mota-left">
+                        <div class="product-left-price">
+                            <div class="qw">
+                                <div class="left-price-group">
+                                    <h5>100,000 VNĐ</h5>
+                                    <span style="text-decoration: line-through">950.000đ</span>
+                                    <div class="left-price-per">12%</div>
+                                </div>
+                                <div class="product-a">
+                                    <img src="./image/productleft1.png" alt="">
+                                    <div class="product-a-detail">
+                                        <span>Hoàn tiền 15% tối đa 600k/tháng</span>
+                                    </div>
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-left-b">
+                            <span>Bạn hãy <a>NHẬP ĐỊA CHỈ</a> nhận hàng để được dự báo thời gian & chi phí giao hàng một cách chính xác nhất</span>
+                        </div>
+                        <div class="product-left-c">
+                            <span>Số Lượng</span>
+                            <div class="group-input">
+                                <button class="disable">
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/icons-remove.svg" alt="">
+                                </button>
+                                <input type="text" value="1" class="input">
+                                <button class="enable">
+                                    <img src="	https://frontend.tikicdn.com/_desktop-next/static/img/pdp_revamp_v2/icons-add.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="group-button">
+                                <button class="btn">Chọn Mua</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-seller">
+                        <div class="product-h">
+                            <img src="./image/detailuser.png" alt="">
+                            <a><h9>SHOP MINH ĐƯƠNG</h9></a>
+                        </div>
+                        <div class="product-j">
+                            <div class="product-k">
+                                <div class="product-ka">
+                                    4.3 / 5
+                                    <i class="fa fa-star" aria-hidden="true"></i>                                
+                                </div>
+                                <span>107</span>
+                            </div>
+                            <div class="border-a"></div>
+                            <div class="product-l">
+                                <div>20</div>
+                                <span>Theo dõi</span>
+                            </div>
+                            <div class="border-a"></div>
+                            <div class="product-m">
+                                <div>85%</div>
+                                <span>Phản hồi Chat</span>
+                            </div>
+                        </div>
+                        <div class="product-z">
+                            <div class="product-za">
+                                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                                <span>Xem Shop</span>
+                            </div>
+                            <div class="product-za">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                <span>Theo Dõi</span>
+                            </div>
+                        </div>
+                        <div class="product-zb">
+                            <div class="product-zba">
+                                <img src="./image/detailuser1.png" alt="">
+                                <span>Hoàn tiền<br><b>111%</b><br>nếu hàng giả</span>
+                            </div>
+                            <div class="product-zba">
+                                <img src="./image/detailuser2.png" alt="">
+                                <span>Mở hộp<br>kiểm tra<br>nhận hàng</span>
+                            </div>
+                            <div class="product-zba">
+                                <img src="./image/detailuser3.png" alt="">
+                                <span>Đổi trả trong<br><b>7 ngày</b><br>nếu sp lỗi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sanphamtuongtu">
+            <div class="sanphamtuongtu-title">
+                <span>Sản Phẩm Tương Tự</span>
+            </div>
+            <div class="search-trend-items">
+                <div class="search-trend-item">
+                    <a href="detail.html">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="https://salt.tikicdn.com/cache/200x200/media/catalog/product/tmp/5c/6a/ca/2cabd8ffc740ac58d491bf083da8888e.jpg.webp"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Iphone 12</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>10,000 VNĐ</span>
+                                <div class="search-price-discount">12%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="detail.html">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="https://salt.tikicdn.com/cache/200x200/media/catalog/product/tmp/5c/6a/ca/2cabd8ffc740ac58d491bf083da8888e.jpg.webp"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Iphone 12</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>10,000 VNĐ</span>
+                                <div class="search-price-discount">18%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="detail.html">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="https://salt.tikicdn.com/cache/200x200/media/catalog/product/tmp/5c/6a/ca/2cabd8ffc740ac58d491bf083da8888e.jpg.webp"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Iphone 12</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>10,000 VNĐ</span>
+                                <div class="search-price-discount">24%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="detail.html">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="https://salt.tikicdn.com/cache/200x200/media/catalog/product/tmp/5c/6a/ca/2cabd8ffc740ac58d491bf083da8888e.jpg.webp"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Iphone 12</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>10,000 VNĐ</span>
+                                <div class="search-price-discount">10%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="detail.html">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="https://salt.tikicdn.com/cache/200x200/media/catalog/product/tmp/5c/6a/ca/2cabd8ffc740ac58d491bf083da8888e.jpg.webp"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Iphone 12</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>10,000 VNĐ</span>
+                                <div class="search-price-discount">11%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="thongtinchitiet">
+            <div class="thongtinchitiet-title">
+                <span>Thông Tin Chi Tiết</span>
+            </div>
+            <div class="thongtinchitiet-detail">
+                <div class="detail-a">
+                    <div class="detail-ab">
+                        <span>Thương hiệu</span>
+                    </div>
+                    <div class="detail-ab">
+                        <nav>Xuất xứ thương hiệu</nav>
+                    </div>
+                </div>
+                <div class="detail-b">
+                    <div class="detail-bc">
+                        <span>Hoco</span>
+                    </div>
+                    <div class="detail-bc i">
+                        <nav>Hong Kong</nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="motasanpham">
+            <div class="motasanpham-title">
+                <span>Mô Tả Sản Phẩm</span>
+            </div>
+            <div class="motasanpham-content">
+                <p>
+                    Chất liệu: nhựa, hợp kim nhôm. Hỗ trợ: lightning, micro USB. Chức năng: sạc và truyền dữ liệu. Độ dài: 1m. Màu sắc: vàng. Cáp sạc 2 đầu Iphone-Samsung Hoco X2 được hoàn thiện từ chất liệu nhựa dẻo cao cấp và kim loại nhôm rất chắc chắn.
+                    Sợi cáp được tích hợp 2 đầu micro và lightning, một thiết kế 2 trong 1 đa dụng.
+                </p>
+                <p class="oi">
+                    Chất liệu: nhựa, hợp kim nhôm. Hỗ trợ: lightning, micro USB. Chức năng: sạc và truyền dữ liệu.
+                    Độ dài: 1m. Màu sắc: vàng. Cáp sạc 2 đầu Iphone-Samsung Hoco X2 được hoàn thiện từ chất liệu nhựa dẻo cao cấp và kim loại nhôm rất chắc chắn. Sợi cáp được tích hợp 2 đầu micro và lightning, một thiết kế 2 trong 1 đa dụng.
+                </p>
+                <p>
+                    Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Tuy nhiên tuỳ vào từng loại sản phẩm hoặc phương thức, địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, .....
+                </p>
+            </div>
+        </div>
+        <div class="danhgianhanxet">
+            <div class="danhgianhanxet-title">
+                <span>Đánh Giá - Nhận Xét Từ Khách Hàng</span>
+            </div>
+            <div class="danhgianhanxet1">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80"><defs><path id="de2e1324-93de-41c2-9241-d786ea63313c-a" d="M43.716 5.432l2.859 10.239a7.29 7.29 0 004.228 4.796l9.682 3.99c5.349 2.204 6.112 9.605 1.327 12.87l-8.661 5.913a7.327 7.327 0 00-3.158 5.57l-.708 10.613c-.39 5.86-7.057 8.872-11.592 5.235l-8.212-6.585a7.085 7.085 0 00-6.18-1.354l-10.12 2.57c-5.59 1.418-10.473-4.122-8.492-9.635l3.585-9.982a7.441 7.441 0 00-.66-6.407L2.067 24.24c-3.064-4.985.584-11.419 6.344-11.189l10.428.415a7.106 7.106 0 005.772-2.606l6.692-8.147C35-1.787 42.136-.223 43.716 5.433z"></path><path id="de2e1324-93de-41c2-9241-d786ea63313c-c" d="M28.34 5.431l2.86 10.24c.608 2.176 2.168 3.947 4.227 4.796l9.683 3.99c5.348 2.204 6.111 9.604 1.328 12.87l-8.662 5.913a7.326 7.326 0 00-3.158 5.57l-.709 10.613c-.026.39-.08.766-.159 1.13C12.394 55.609-1.723 35.19.251 13.338l3.213.127a7.1 7.1 0 005.77-2.606l6.694-8.147c3.696-4.499 10.834-2.935 12.412 2.72z"></path><path id="de2e1324-93de-41c2-9241-d786ea63313c-e" d="M29.628 11.393c.658-3.136 3.67-5.132 6.73-4.458 3.06.673 5.007 3.761 4.35 6.897-.657 3.135-3.67 5.132-6.73 4.458-3.06-.674-5.007-3.761-4.35-6.897zM7.276.53c3.059.674 5.006 3.762 4.349 6.898-.657 3.135-3.67 5.132-6.729 4.457-3.06-.674-5.007-3.762-4.35-6.897.657-3.136 3.67-5.131 6.73-4.458z"></path><path id="de2e1324-93de-41c2-9241-d786ea63313c-g" d="M.75 8.56c.165-.784.919-1.283 1.683-1.114l3.957.87c.765.169 1.252.942 1.087 1.725-.164.784-.917 1.283-1.682 1.114l-.499-.11c-.422 5.407 3.124 10.446 8.436 11.616 5.311 1.17 10.564-1.932 12.346-7.04l-.5-.11c-.764-.168-1.251-.94-1.086-1.724.163-.784.917-1.283 1.682-1.114l3.957.871c.765.169 1.252.94 1.087 1.724-.164.784-.918 1.283-1.682 1.114l-.666-.146c-2.126 6.674-8.892 10.77-15.734 9.264-6.84-1.506-11.369-8.09-10.633-15.069l-.665-.147C1.074 10.116.587 9.344.75 8.56zm21.025-4.917c.164-.783.917-1.282 1.683-1.114l.276.06c.765.17 1.252.941 1.087 1.725-.164.784-.917 1.283-1.682 1.114l-.277-.06c-.764-.169-1.251-.94-1.087-1.725zM12.655.15l.277.061c.765.168 1.252.941 1.087 1.724-.164.785-.917 1.284-1.682 1.115l-.278-.06c-.764-.17-1.25-.941-1.087-1.725.165-.785.918-1.283 1.683-1.115z"></path></defs><g fill="none" fill-rule="evenodd" opacity="0.997"><g transform="rotate(-12 67.32 3.796)"><mask id="de2e1324-93de-41c2-9241-d786ea63313c-b" fill="#fff"><use xlink:href="#de2e1324-93de-41c2-9241-d786ea63313c-a"></use></mask><path fill="#C7C7C7" d="M-6.732-7.793h79.409v81.922H-6.732z" mask="url(#de2e1324-93de-41c2-9241-d786ea63313c-b)"></path></g><g transform="rotate(-12 59.633 -69.346)"><mask id="de2e1324-93de-41c2-9241-d786ea63313c-d" fill="#fff"><use xlink:href="#de2e1324-93de-41c2-9241-d786ea63313c-c"></use></mask><path fill="#E0E0E0" d="M-7.62-7.793h64.921v76.236H-7.62z" mask="url(#de2e1324-93de-41c2-9241-d786ea63313c-d)"></path></g><g transform="rotate(-12 159.533 -57.659)"><mask id="de2e1324-93de-41c2-9241-d786ea63313c-f" fill="#fff"><use xlink:href="#de2e1324-93de-41c2-9241-d786ea63313c-e"></use></mask><path fill="#C7C7C7" d="M-7.269-7.49h55.792v33.801H-7.269z" mask="url(#de2e1324-93de-41c2-9241-d786ea63313c-f)"></path></g><g transform="rotate(-12 162.44 -80.152)"><mask id="de2e1324-93de-41c2-9241-d786ea63313c-h" fill="#fff"><use xlink:href="#de2e1324-93de-41c2-9241-d786ea63313c-g"></use></mask><path fill="#000" fill-opacity="0.54" d="M-6.969-7.773h45.907v41.475H-6.969z" mask="url(#de2e1324-93de-41c2-9241-d786ea63313c-h)"></path></g></g></svg>
+                <span>Chưa có đánh giá nào cho sản phẩm này</span>
+            </div>
+        </div>
+        <div class="khamphathem">
+            <div class="khamphathem-title">
+                <span>Khám Phá Thêm</span>
+            </div>
+            <div class="search-trend-items">
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)></a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="search-trend-item">
+                    <a href="">
+                        <div class="search-trend-item--image">
+                            <img class="search-item--imageone" src="./image/10.png"></img>
+                            <img class="search-item--imagetwo" src="https://salt.tikicdn.com/ts/upload/dc/0d/49/ef9dc5d8164bd62b011e54276502b342.png" alt=""></img>
+                        </div>
+                        <div class="search-trend-item-title" style="font-size:13px">
+                            <a>Điện thoại Oppo A15 (2g/32G)</a>
+                            <div class="search-trend-item-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <div class="search-trend-affter"></div>
+                                <span>Đã bán 100+</span>
+                            </div>
+                            <div class="search-trend-price">
+                                <span>12.930.000đ</span>
+                                <div class="search-price-discount">21%</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="footer">
+                <div class="footer-items">
+                    <div class="footer-item">
+                        <ul>HỔ TRỢ KHÁCH HÀNG
+                            <div class="footer-item-a">
+                                <li>Các câu hỏi thường gặp</li>
+                                <li>Gửi yêu cầu hổ trợ</li>
+                                <li>Hướng dẫn đặt hàng</li>
+                                <li>Phương thức vận chuyển</li>
+                                <li>Chính sách đổi trả</li>
+                                <li>Hướng dẫn trả góp</li>
+                                <li>Chính sách hàng nhập khẩu</li>
+                                <li>Hỗ trợ khách hàng: hotro@tiki.vn</li>
+                                <li>Báo lỗi bảo mật: security@tiki.vn</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <ul>Về TIKI
+                        <div class="footer-item-a">
+                            <li>Giới thiệu Tiki</li>
+                            <li>Tuyển dụng</li>
+                            <li>Chính sách bảo mật thanh toán</li>
+                            <li>Chính sách bảo mật thông tin cá nhân</li>
+                            <li>Chính sách giải quyết khiếu nại</li>
+                            <li>Điều khoản sử dụng</li>
+                            <li>Giới thiệu Tiki Xu</li>
+                            <li>Bán hàng doanh nghiệp</li>
+                        </div>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <ul>HỢP TÁC VÀ LIÊN KẾT
+                            <div>
+                                <li>Quy chế hoạt động sàn GDTMĐT</li>
+                                <li>Bán hàng cùng Tiki</li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <ul>PHƯƠNG THỨC THANH TOÁN
+                            <div class="footer-item-a">
+                                <div class="footer-item-imageone">
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/visa.svg" alt=""></img>
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/mastercard.svg" alt=""></img>
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/jcb.svg" alt=""></img>
+                                </div>
+                                <div class="footer-item-imagetwo">
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/cash.svg" alt=""></img>
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/internet-banking.svg" alt=""></img>
+                                    <img src="https://frontend.tikicdn.com/_desktop-next/static/img/footer/installment.svg" alt=""></img>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <ul>TẢI ỨNG DỤNG TRÊN ĐIỆN THOẠI
+                            <div class="footer-item-a">
+                                <img class="footer-item-end" src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/appstore.png" alt=""></img>
+                                <img class="footer-item-end" src="https://frontend.tikicdn.com/_desktop-next/static/img/icons/playstore.png" alt=""></img>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="detail.js"></script>
+</body>
+</html>

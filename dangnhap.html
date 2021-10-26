@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="icon" href="https://brasol.vn/public/uploads/1571133630-logo-tiki.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/3a676f1eef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header onclick="closeSearch()" class="header" style="max-width: 1600px; margin: 0 auto">
+        <a href="index.html" class="header-logo">
+            <img src="https://salt.tikicdn.com/ts/upload/ae/f5/15/2228f38cf84d1b8451bb49e2c4537081.png" alt="" class="header-logo-img"></img>
+            <img src="https://salt.tikicdn.com/ts/upload/e5/1d/22/61ff572362f08ead7f34ce410a4a6f96.png" alt="" class="header-logo-icon"></img>
+        </a>
+        <div class="header-menu">
+            <div class="header-menu-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <a href="" class="header-menu-text">Sản phẩm</a>
+            <div class="header-hidden">
+                <ul class="header-hidden-menu">
+                    <li class="header-hidden-item">
+                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                        <span>Điện Thoại - Máy tính bảng</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-desktop" aria-hidden="true"></i>
+                        <span>Điện Tử - Điện Lạnh</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-headphones" aria-hidden="true"></i>
+                        <span>Phụ Kiện - Thiết Bị Số</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-laptop" aria-hidden="true"></i>
+                        <span>Laptop - Thiết Bị IT</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-camera" aria-hidden="true"></i>
+                        <span>Máy Ảnh - Quay Phim</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-life-ring" aria-hidden="true"></i>
+                        <span>Điện Gia Dụng</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span>Nhà Cửa Đời Sống</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-ravelry" aria-hidden="true"></i>
+                        <span>Tiêu Dùng - Thực Phẩm</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-clone" aria-hidden="true"></i>
+                        <span>Đồ Chơi, Mẹ & Bé</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-blind" aria-hidden="true"></i>
+                        <span>Làm Đẹp - Sức Khỏe</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-imdb" aria-hidden="true"></i>
+                        <span>Thời Trang - Phụ Kiện</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-opera" aria-hidden="true"></i>
+                        <span>Thể Thao - Dã Ngoại</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-car" aria-hidden="true"></i>
+                        <span>Xe Máy, Ô Tô, Xe Đạp</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-adjust" aria-hidden="true"></i>
+                        <span>Hàng Quốc Tế</span>
+                    </li>
+                    <li class="header-hidden-item">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span>Sách</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-search">
+            <input onfocus="openSearch()" class="header-search-bar" type="text" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ..."></input>
+            <button class="header-search-btn">
+                <i class="header-search-icon fa fa-search"></i>
+                <span>Tìm kiếm</span>
+            </button>
+            <!-- <div class="header-search-info">
+                <div class="header-search-infor-title">
+                    <div class="header-search-title">
+                        <a href="">Săn ngay Laptop học online</a>
+                        <div class="header-search-title-img">
+                            <img src="https://salt.tikicdn.com/cache/140x28/ts/banner/03/3e/ff/963f088d309a0d52192fa5e6def52049.png.webp" alt=""></img>
+                        </div>
+                    </div>
+                    <div class="i">
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                        <div class="header-search-infor-history">
+                            <div class="b">
+                                <i><FaHistory/></i>
+                                <span>Mini pc</span>
+                            </div>
+                            <div class='header-search-time'>
+                                <i><FaTimes/></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-search-infor-trend">
+                    <div class="header-search-trend">
+                        <img src="https://salt.tikicdn.com/ts/upload/4f/03/a0/2455cd7c0f3aef0c4fd58aa7ff93545a.png" alt=""></img>
+                        <span>Tìm Kiếm Phổ Biến</span>
+                    </div>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                        <a href=""class="header-search-item">
+                            <img src="https://salt.tikicdn.com/cache/280x280/ts/product/cb/95/68/4db8ba977b062f0fa6fefee3cb5fcb43.jpg" alt=""></img>
+                            <span>Rau củ</span>
+                        </a>
+                    </div>
+                <div class="header-search-infor-nav">
+                    <div class="header-search-nav">
+                        <span>Danh Mục Nổi Bật</span>
+                    </div>
+                    <div class="header-nav-items">
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/65/f7/8f/dcb4a4a7e612edd19c6c78fbc821a110.png" alt=""></img>
+                            </div>
+                            <span>Rau Củ Quả</span>
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                        <a href=""class="header-search-nb">
+                            <div>
+                                <img src="https://salt.tikicdn.com/cache/280x280/ts/product/0c/62/39/31879ad1c9cf92b35e58749268ba4ff7.jpg" alt=""></img>
+                            </div>
+                            <span>Điện Thoại Smartphone</span> 
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <a class="header-d" href="dangnhap.html">
+        <div class="header-login">
+                <i class=" header-login-icon fa fa-user"></i>
+                <div class="header-login-text">
+                    <span>Đăng Nhập/Đăng Ký</span>
+                    <div class="header-login-text-user">
+                        <span class="header-login-text-s">Tài Khoản</span>
+                        <img class="header-login-text-icon"src="https://salt.tikicdn.com/ts/upload/d7/d4/a8/34939af2da1ceeeae9f95b7485784233.png" alt=""></img>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <div class="header-cart">
+            <i class="header-cart-icon fa fa-shopping-cart"></i>
+            <a class="header-cart-text" href="">Giỏ Hàng</a>
+        </div>
+    </header>
+    <form action="" method="post">
+        <div class="auth-form auth-form2">
+        <div class="auth-form__container">
+        <div class="auth-form__header">
+            <h3 class="auth-form__heading">Đăng nhập</h3>
+            <a class="auth-form--i" href="dangki.html">
+                <span class="auth-form__switch-btn">Đăng ký</span>
+            </a>
+        </div>
+        <div class="auth-form__form">
+            <div class="auth-form__group">
+                <input type="text" class="auth-form__input" name="email" placeholder="Email của bạn">
+            </div>
+            <div class="auth-form__group">
+                <input type="password" class="auth-form__input" name="password" placeholder="Mật khẩu của bạn">
+            </div>
+        </div>
+        <div class="auth-form__aside">
+            <div class="auth-form__help">
+                <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                <span class="auth-form__help-seperate"></span>
+                <a href="" class="auth-form__help-link">Cần trợ giúp ?</a>
+            </div>
+        </div>
+        <div class="auth-form__controls">
+            <a class="auth-form-p" href="index.html">
+                <button class="btn auth-form__controls-back btn--normal"><a style="text-decoration: none" href="index.html">TRỞ LẠI</a></button>
+            </a>
+            <button class="btn btn--primary" type="submit" name="submit" ><a style="text-decoration: none" href="index.html">ĐĂNG NHẬP</a></button>
+        </div>
+        </div>
+        <div class="auth-form__socials">
+            <a href="" class="auth-form__socials--facebook btn btn--size-s btn--with-icon">
+                <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                <span class="auth-form__socials-titles">Kết nối với Facebook</span>
+            </a> 
+            <a href="" class="auth-form__socials--google btn btn--size-s btn--with-icon">
+                <i class="auth-form__socials-icon fab fa-google"></i>
+                <span class="auth-form__socials-titles">Kết nối với Google</span>
+            </a>
+        </div>
+        </div>  
+    </form>
+</body>
+</html>
